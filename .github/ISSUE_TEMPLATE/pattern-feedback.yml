@@ -1,0 +1,36 @@
+name: 实战反馈 / Pattern feedback
+description: 记录某个模式在实际任务里的效果，和技能里的 note 命令一样。Report how a pattern worked in practice.
+title: "[反馈] "
+labels: ["pattern-feedback"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: 模式 ID / Pattern ID
+      placeholder: 例如 D2
+    validations:
+      required: true
+  - type: input
+    id: scenario
+    attributes:
+      label: 场景 / Scenario
+      placeholder: 例如：求解器性能优化
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: 效果 / Result
+      options:
+        - 好 / Good
+        - 一般 / OK
+        - 差 / Bad
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 原因 / Why
+      description: 起作用或不起作用的原因。可以贴改写前后的提示词，请先去掉保密信息。
+    validations:
+      required: true

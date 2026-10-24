@@ -1,0 +1,31 @@
+name: 问题报告 / Bug report
+description: 技能的表现和说明不一致。The skill behaved differently from what its instructions say.
+title: "[问题] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 你给的原始提示词 / Your original prompt
+      description: 请先去掉保密信息。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的表现 / Expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际的表现 / Actual
+      description: 例如：小任务被写成了长提示词、编造了路径、漏了冻结项。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Claude Code 版本和安装方式 / Version and install method
+      placeholder: 例如 2.1.310，插件安装

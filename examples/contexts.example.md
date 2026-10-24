@@ -1,6 +1,6 @@
 # 使用者语境（示例，虚构）
 
-这是一份填好的 `contexts.md` 示例，用来演示每一节该写到多细。里面的项目、路径、合作方都是虚构的。复制到 `~/.claude/skills/ambition/references/contexts.md` 之后，换成你自己的情况。
+这是一份填好的 `contexts.md` 示例，用来演示每一节该写到多细。里面的项目、路径、合作方都是虚构的。复制到 `~/.claude/ambition/contexts.md`（或项目里的 `.claude/ambition/contexts.md`）之后，换成你自己的情况。
 
 下文的相对路径都以 `~/work/` 为根目录。最后核对：2026-10-25。
 

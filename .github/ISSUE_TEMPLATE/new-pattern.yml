@@ -1,0 +1,62 @@
+name: 新模式 / New pattern
+description: 提议往模式库里加一个模式。Propose a new prompt pattern.
+title: "[模式] "
+labels: ["new-pattern"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提议！一个好的模式需要一个真实的例子：原来的提示词、用了模式之后的提示词，以及结果有什么变化。请去掉保密的项目名、路径和数字。
+        Thanks! A good pattern needs a real example. Please remove confidential names, paths, and numbers.
+  - type: input
+    id: name
+    attributes:
+      label: 模式名字 / Name
+      placeholder: 例如：会议以决策收尾
+    validations:
+      required: true
+  - type: dropdown
+    id: dimension
+    attributes:
+      label: 维度 / Dimension
+      options:
+        - H 高度 / Altitude
+        - D 深度 / Depth
+        - V 验证 / Verification
+        - R 广度 / Breadth
+        - P 合作方 / Partners
+        - S 选题 / Topic selection
+        - F 追问 / Follow-ups
+        - 不确定 / Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: 什么时候用，什么时候别用 / When to use it, and when not to
+    validations:
+      required: true
+  - type: textarea
+    id: template
+    attributes:
+      label: 模板 / Template
+      description: 占位符写成 {…}
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: 真实例子 / A real example
+      description: 原来的提示词、用了模式之后的提示词，以及结果有什么变化。
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: 常见失败 / Most common failure
+  - type: input
+    id: source
+    attributes:
+      label: 来源 / Source
+      description: 文章链接，或者"自己的实践"。

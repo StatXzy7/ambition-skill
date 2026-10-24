@@ -1,0 +1,30 @@
+{
+  "name": "ambition-skill",
+  "owner": {
+    "name": "StatXzy7",
+    "url": "https://github.com/StatXzy7"
+  },
+  "metadata": {
+    "description": "把提示词往更高、更深、更广改写，并给每个激进目标配上冻结的外部验证器。Prompt-rewriting skill with 25 patterns.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ambition",
+      "description": "把提示词或任务描述往更高、更深、更广改写，每个激进目标都配上冻结的外部验证器；附 25 个可选用的提示词模式。Rewrites prompts to aim higher, deeper, and wider, pairing every aggressive goal with a frozen external verifier.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ambition"],
+      "author": {
+        "name": "StatXzy7",
+        "url": "https://github.com/StatXzy7"
+      },
+      "homepage": "https://github.com/StatXzy7/ambition-skill",
+      "repository": "https://github.com/StatXzy7/ambition-skill",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "keywords": ["prompt-engineering", "prompts", "verification", "research", "ai-for-science"]
+    }
+  ]
+}
