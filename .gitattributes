@@ -4,3 +4,6 @@
 *.py text eol=lf
 LICENSE text eol=lf
 NOTICE text eol=lf
+
+# Count the Markdown skill itself in the language bar, not just the helper scripts.
+*.md linguist-detectable
