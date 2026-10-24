@@ -1,0 +1,17 @@
+Ambition Skill
+Copyright 2026 StatXzy7
+
+The prompt patterns adapt ideas from:
+
+- Felix Rieseberg, "How to be more ambitious: A tutorial for humans with
+  models" (2026-10-13).
+  https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
+- Matthew D. Schwartz, "Claude-shaped science", Anthropic (2026-10-01).
+  https://www.anthropic.com/research/claude-shaped-science
+- The BootLoops protocols, in particular planted-truth (MIT License).
+  https://github.com/BootLoops-ai/skills
+
+The source articles are not distributed in this repository. The templates
+are paraphrased and extended adaptations written for this project; no
+ownership of the source articles is claimed. Patterns whose source line in
+references/patterns.md reads only "本库" are original to this project.
